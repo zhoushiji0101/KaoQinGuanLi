@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7078C173-9120-4D57-B537-7284E4B02397}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\common.css" />
+    <Content Include="css\dialog.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\MyAttendance.css" />
+    <Content Include="css\myCalendar.css" />
+    <Content Include="Html\ApplyDetails-请假查看详细.html" />
+    <Content Include="Html\ApplyDetails-请假申请.html" />
+    <Content Include="Html\AskForleave-请假申请列表.html" />
+    <Content Include="Html\AttendanceManage-考勤管理列表.html" />
+    <Content Include="Html\AttendanceSetting-考勤设置列表.html" />
+    <Content Include="Html\AttendanceShow-查看考勤列表.html" />
+    <Content Include="Html\DepartmentManage-部门管理列表.html" />
+    <Content Include="Html\DepartmentManageEdit-部门管理添加.html" />
+    <Content Include="Html\DepartmentManageEdit-部门管理编辑.html" />
+    <Content Include="Html\Login-登录.html" />
+    <Content Include="Html\MyAttendance-列表显示.html" />
+    <Content Include="Html\MyAttendance-日历显示.html" />
+    <Content Include="Html\PersonalInfo-个人信息.html" />
+    <Content Include="Html\UserManage-用户列表管理.html" />
+    <Content Include="Html\UserManageEdit-用户添加.html" />
+    <Content Include="Html\UserManageEdit-用户编辑.html" />
+    <Content Include="image\common\btn.gif" />
+    <Content Include="image\common\btnSearch.gif" />
+    <Content Include="image\common\delete.png" />
+    <Content Include="image\common\edit.png" />
+    <Content Include="image\DataPager\begin.gif" />
+    <Content Include="image\DataPager\end.gif" />
+    <Content Include="image\DataPager\last.gif" />
+    <Content Include="image\DataPager\next.gif" />
+    <Content Include="image\login\login_1.gif" />
+    <Content Include="image\login\login_2.gif" />
+    <Content Include="image\login\login_3.gif" />
+    <Content Include="image\login\login_4.gif" />
+    <Content Include="image\login\login_5.gif" />
+    <Content Include="image\login\login_6.gif" />
+    <Content Include="image\main\bottom.gif" />
+    <Content Include="image\main\cube.gif" />
+    <Content Include="image\main\currentUrl.gif" />
+    <Content Include="image\main\grid-head.gif" />
+    <Content Include="image\main\help.png" />
+    <Content Include="image\main\join.gif" />
+    <Content Include="image\main\logo.png" />
+    <Content Include="image\main\main-title.gif" />
+    <Content Include="image\main\off.jpg" />
+    <Content Include="image\main\top.gif" />
+    <Content Include="image\menu\menu.gif" />
+    <None Include="js\jquery-1.4.1-vsdoc.js" />
+    <Content Include="js\jquery-1.4.1.js" />
+    <Content Include="js\myCalendar.js" />
+    <Content Include="js\SVSE.UI.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1197/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
