@@ -1,0 +1,9 @@
+D:\考勤管理\Solution1\BLL\bin\Debug\BLL.dll
+D:\考勤管理\Solution1\BLL\bin\Debug\BLL.pdb
+D:\考勤管理\Solution1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\考勤管理\Solution1\BLL\obj\Debug\BLL.dll
+D:\考勤管理\Solution1\BLL\obj\Debug\BLL.pdb
+D:\考勤管理\Solution1\BLL\bin\Debug\DAL.dll
+D:\考勤管理\Solution1\BLL\bin\Debug\Models.dll
+D:\考勤管理\Solution1\BLL\bin\Debug\DAL.pdb
+D:\考勤管理\Solution1\BLL\bin\Debug\Models.pdb

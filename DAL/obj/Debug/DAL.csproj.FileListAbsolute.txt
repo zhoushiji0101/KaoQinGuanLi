@@ -1,0 +1,7 @@
+D:\考勤管理\Solution1\DAL\bin\Debug\DAL.dll
+D:\考勤管理\Solution1\DAL\bin\Debug\DAL.pdb
+D:\考勤管理\Solution1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\考勤管理\Solution1\DAL\obj\Debug\DAL.dll
+D:\考勤管理\Solution1\DAL\obj\Debug\DAL.pdb
+D:\考勤管理\Solution1\DAL\bin\Debug\Models.dll
+D:\考勤管理\Solution1\DAL\bin\Debug\Models.pdb

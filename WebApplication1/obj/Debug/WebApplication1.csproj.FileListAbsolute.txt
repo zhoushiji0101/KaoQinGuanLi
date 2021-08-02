@@ -1,5 +1,11 @@
 D:\考勤管理\Solution1\WebApplication1\bin\WebApplication1.dll
 D:\考勤管理\Solution1\WebApplication1\bin\WebApplication1.pdb
-D:\考勤管理\Solution1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 D:\考勤管理\Solution1\WebApplication1\obj\Debug\WebApplication1.dll
 D:\考勤管理\Solution1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\考勤管理\Solution1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+D:\考勤管理\Solution1\WebApplication1\bin\BLL.dll
+D:\考勤管理\Solution1\WebApplication1\bin\Models.dll
+D:\考勤管理\Solution1\WebApplication1\bin\BLL.pdb
+D:\考勤管理\Solution1\WebApplication1\bin\Models.pdb
+D:\考勤管理\Solution1\WebApplication1\bin\DAL.dll
+D:\考勤管理\Solution1\WebApplication1\bin\DAL.pdb
